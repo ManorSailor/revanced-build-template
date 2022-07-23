@@ -1,3 +1,27 @@
 # EXCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
+swipe-controls
+return-youtube-dislike
+hide-autoplay-button
+custom-branding
+enable-wide-searchbar
+autorepeat-by-default
 
 # INCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
+seekbar-tapping
+minimized-playback
+amoled
+disable-create-button
+hide-cast-button
+premium-heading
+hide-autoplay-button
+disable-fullscreen-panels
+old-quality-layout
+hide-shorts-button
+hide-watermark
+sponsorblock
+force-vp9-codec
+hdr-auto-brightness
+video-ads
+general-ads
+hide-infocard-suggestions
+	
