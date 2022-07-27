@@ -5,5 +5,5 @@ apkeep
 revanced-cache/
 build/
 .editorconfig
-patches.txt
+.config
 .vscode/
