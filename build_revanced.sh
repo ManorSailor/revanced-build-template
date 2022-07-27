@@ -54,10 +54,7 @@ build_apps() {
     echo "--------------------------------"
     echo "Building ${5:9}"
     echo "--------------------------------"
-    java -jar revanced-cli.jar $1 -b revanced-patches.jar $2 \ 
-                $3 ${patches[@]} \
-                $EXPERIMENTAL \
-                $4 $5
+    java -jar revanced-cli.jar $1 -b revanced-patches.jar $2 $3 ${patches[@]} $EXPERIMENTAL $4 $5
 }
 
 ## Main
@@ -108,6 +105,7 @@ readonly ROOT_SUFFIX="root.apk"
 readonly NON_ROOT_SUFFIX="nonroot.apk"
 
 # Compile build based on user's preferences. If nothing is specified, it will build everything
+# TODO: Improve the following code by reducing redundancy & complexity
 case "$APP-$VARIANT" in
     "YT-"|"yt-")
         echo "Building both variants of YouTube"
