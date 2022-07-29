@@ -13,7 +13,7 @@ This repo template will allow you to build ReVanced using Github Actions. This w
 ## Customize your build
 If you wish to continue with the default settings, you may skip this step.
 
-By default this will build ReVanced with ALL available patches. Follow [this guide](PATCHES_GUIDE.md) to exclude/customizing patches for your build.
+By default this script will build both ReVanced YouTube & Music with ALL available patches. Follow [this guide](Customize.md) if you want to customize your build.
 
 ## How to build
 1. Go to Actions -> All workflows -> ReVanced Build ([Example](images/workflow_run.png))
